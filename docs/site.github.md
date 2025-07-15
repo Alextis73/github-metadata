@@ -86,3 +86,110 @@ The following sample information is exposed to Jekyll templates in the `site.git
     }
 }
 ```
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWAT Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    #gameStart, #gameInterface {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 300px;
+      width: 100%;
+    }
+    #gameStart.active, #gameInterface.active {
+      display: flex;
+    }
+    select, button {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>SWAT: Operación Multijugador</h1>
+  <div id="gameStart" class="active">
+    <label for="platform">¿En qué vas a jugar?</label>
+    <select id="platform">
+      <option value="PC">PC</option>
+      <option value="Móvil">Móvil</option<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWAT Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    #gameStart, #gameInterface {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 300px;
+      width: 100%;
+    }
+    #gameStart.active, #gameInterface.active {
+      display: flex;
+    }
+    select, button {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>SWAT: Operación Multijugador</h1>
+  <div id="gameStart" class="active">
+    <label for="platform">¿En qué vas a jugar?</label>
+    <select id="platform">
+      <option value="PC">PC</option>
+      <option value="Móvil">Móvil</option
